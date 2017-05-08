@@ -18,7 +18,11 @@ class ViewController: UIViewController {
     
     @IBAction func aandAction(_ sender: Any) {
         
-        label.text = "Sum is \(Double(text1.text!)! + Double(text2.text!)!)"
+        if text1.text! <= text2.text!{
+            label.text = "Sum is \(Double(text1.text!)! + Double(text2.text!)!)"
+        }else{
+            label.text = "Difference is \(Double(text1.text!)! - Double(text2.text!)!)"
+        }
     }
     
     override func viewDidLoad() {
