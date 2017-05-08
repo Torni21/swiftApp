@@ -11,13 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     @IBAction func aandAction(_ sender: Any) {
         
-        label.text = "Hello Tokooo!!"
+        label.text = "Sum is \(Double(text1.text!)! + Double(text2.text!)!)"
     }
-    @IBAction func anotherbutn(_ sender: Any) {
-        label.text = "Gaumarjoooos!!"
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
