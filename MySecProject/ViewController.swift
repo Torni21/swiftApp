@@ -3,7 +3,7 @@
 //  MySecProject
 //
 //  Created by tornike mindorashvili on 5/8/17.
-//  Copyright © 2017 tornike mindorashvili. All rights reserved.
+//  Copyright © 2017 tornike mindorashvili. All rights reserved...
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         label.text = "Hello Tokooo!!"
     }
     @IBAction func anotherbutn(_ sender: Any) {
-        label.text = "Gaumarjos!!"
+        label.text = "Gaumarjoooos!!"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
